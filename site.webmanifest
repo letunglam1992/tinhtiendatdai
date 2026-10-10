@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "Tính tiền đất đai và môi trường",
+  "short_name": "Tính tiền đất",
+  "description": "Tính tiền xử phạt, chuyển mục đích sử dụng đất và thuê đất. Tác giả: Tùng Lâm.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f2ec",
+  "theme_color": "#12372c",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

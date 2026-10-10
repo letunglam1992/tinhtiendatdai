@@ -31,3 +31,7 @@ Kiểm tra: cú pháp JavaScript, cấu trúc HTML, bảo toàn dữ liệu và 
 Phần mềm được bảo hộ quyền tác giả. Nghiêm cấm sao chép, sửa đổi, phân phối, dịch ngược hoặc khai thác thương mại khi chưa được tác giả cho phép, trừ trường hợp pháp luật có quy định khác. Thư viện bên thứ ba tuân theo giấy phép riêng của từng thư viện.
 
 Công cụ hỗ trợ tra cứu, tham khảo nội bộ; không thay thế văn bản pháp luật gốc và ý kiến chuyên môn của người có thẩm quyền.
+
+## Biểu tượng website
+
+Biểu tượng cán cân trắng trên nền xanh đậm dùng cho tab trình duyệt, dấu trang và màn hình chính điện thoại. Có SVG, ICO, PNG 16/32/180/192/512 và manifest; không bổ sung chế độ chạy ngoại tuyến. Nếu biểu tượng cũ còn lưu trong bộ nhớ đệm, tải lại trang hoặc xóa lối tắt rồi thêm lại.
