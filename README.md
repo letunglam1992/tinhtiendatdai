@@ -22,9 +22,15 @@ Giao diện đồng bộ với phần mềm Điều hành nhiệm vụ: menu bê
 
 ## Phạm vi bản cập nhật 10/10/2026
 
-Chỉnh giao diện, bố cục, điều hướng, thống kê tổng quan và thông tin bản quyền. Giữ các hàm tính toán nghiệp vụ và bộ dữ liệu pháp lý của file nguồn. Bản cập nhật không thực hiện thẩm định tính đúng đắn hoặc tính còn hiệu lực của các căn cứ pháp luật.
+Đã rà soát và sửa kiểm tra đầu vào, kết quả cũ khi lưu/in/xuất, đơn vị tiền thuê, phân biệt phiếu đất đai/môi trường, tổng hợp tiền theo kỳ và khôi phục sao lưu. Giữ số gốc cho dữ liệu hợp lệ, không thay bộ đơn giá/tỷ lệ và không tính lại hồ sơ cũ. Lớp đất mới không có tỷ lệ mặc định 60%/50%; thời hạn thuê/giá cần nhập theo hồ sơ.
 
-Kiểm tra: cú pháp JavaScript, cấu trúc HTML, bảo toàn dữ liệu và khóa lưu trữ, phép tính mẫu và mã điều hướng bằng môi trường mô phỏng DOM. Chưa kiểm tra trực quan bằng trình duyệt thật trên máy tính/điện thoại trong môi trường thực hiện này.
+**Tra cứu & Tổng hợp** có ba mục: Hồ sơ đã lưu, Bảng giá đất, Hành vi & mức xử phạt. Bố cục theo ảnh mẫu: thẻ chọn ở trên, danh mục và bộ lọc bên trái, bảng kết quả bên phải. Tra cứu giá có phân trang; tra cứu hành vi hiển thị các khung phạt, biện pháp khắc phục và xử phạt bổ sung theo dữ liệu hiện có.
+
+**83 kiểm tra tự động đạt**, gồm 9 ví dụ so sánh trước/sau, lưu/in, sao lưu/khôi phục và tra cứu. Chạy `node tests/review.test.cjs`. Kết quả chi tiết ở `tests/verification-results.json`. Chưa kiểm tra trực quan trên trình duyệt thật, in/Word thực tế, thư viện CDN hoặc AI trực tuyến.
+
+Đọc [báo cáo rà soát và hướng dẫn cập nhật](BAO_CAO_RA_SOAT.md) để xem công thức, các thay đổi, ví dụ và thông tin còn thiếu. Chưa xác nhận tính đúng pháp luật: cần văn bản gốc, quyết định giá/tỷ lệ và quy tắc quy đổi thời gian/làm tròn áp dụng. Khoảng ngày cuối tháng mà công thức cũ cho số ngày âm bị chặn, chờ căn cứ nghiệp vụ.
+
+Trước cập nhật, xuất sao lưu JSON. Giữ cùng địa chỉ website/trình duyệt để tiếp tục dùng dữ liệu. Kho GitHub `main` liên kết Vercel; cập nhật mã kích hoạt triển khai. Không có lệnh build.
 
 ## Bản quyền
 
